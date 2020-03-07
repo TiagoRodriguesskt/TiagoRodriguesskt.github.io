@@ -115,7 +115,7 @@ header.sticky ul li a {
 }
 
 .sec {
-    /* background-image: url(./imagens/fundo-principal.jpg); */
+    background-image: url(./imagens/fundo-principal.jpg);
     /* background: rgb(200, 245, 237); */
     padding: 100px;
     min-height: 100vh;

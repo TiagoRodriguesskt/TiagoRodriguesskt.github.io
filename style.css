@@ -16,6 +16,7 @@ body {
 }
 /*COLOCANDO CABEÇALHO NO MENU*/
 .header-2 {
+    text-transform: uppercase;
 	background-color: #000;
 	width: 100%;
 	margin: 0 auto;
@@ -114,7 +115,7 @@ header.sticky ul li a {
 }
 
 .sec {
-    background-image: url(./imagens/fundo-principal.jpg);
+    /* background-image: url(./imagens/fundo-principal.jpg); */
     /* background: rgb(200, 245, 237); */
     padding: 100px;
     min-height: 100vh;
@@ -201,7 +202,7 @@ p {
 .stats p {
     color: #fff;
 }
-
+/*QUANTIDADES*/
 .statsBox {
     position: relative;
     display: grid;
@@ -333,12 +334,12 @@ p {
 
 /*DIV DE CONTATO*/
 .contact {
-    background: #000;
+    background: rgba(28, 88, 5, 0.521);
 }
 
 .contact h3,
 .contact p {
-    color: #fff;
+    color: #000;
 }
 
 .contactForm {
@@ -371,8 +372,8 @@ p {
 .contactForm .row100 textarea {
     position: relative;
     border: none;
-    border-bottom: 1px solid #fff;
-    color: #fff;
+    border-bottom: 1px solid rgb(19, 19, 19);
+    color: rgb(19, 19, 19);
     background: transparent;
     width: 100%;
     padding: 10px 0;
@@ -389,9 +390,9 @@ p {
 
 .contactForm .row100 input::placeholder,
 .contactForm .row100 textarea::placeholder {
-    color: rgba(255, 255, 255, 0.432);
+    color: #000;
 }
-
+/*BOTÃO*/
 .contactForm .row100 input[type="submit"] {
     background: rgb(198, 247, 222);
     color: #000;

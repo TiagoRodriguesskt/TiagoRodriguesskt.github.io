@@ -444,6 +444,7 @@ p {
 }
 
 @media (max-width: 992px) {
+
     .toggle {
         display: block;
         position: relative;
